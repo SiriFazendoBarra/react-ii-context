@@ -1,0 +1,19 @@
+.Card-Title{
+    font-size: 0.9rem;
+    font-weight:500;
+}
+
+.active{
+    background-color: white;
+    color: #212529!important;
+    border-radius: 5px 5px 0 0;    
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+.render{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+}
