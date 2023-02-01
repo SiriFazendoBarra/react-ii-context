@@ -5,7 +5,7 @@
 
 .active{
     background-color: white;
-    color: #212529!important;
+    color: #212529 !important;
     border-radius: 5px 5px 0 0;    
 }
 
@@ -16,4 +16,9 @@
 .render{
     display: grid !important;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 400;
 }

@@ -9,7 +9,13 @@ export default function FavoritesProvider({children}){
 
 
     const addFavorites = (info) =>{
-        setFavorites([...favorites, info])
+        
+        if(info.liked ==true){
+            return
+        }else{
+            setFavorites([...favorites, info])
+            info.liked = true
+        }      
     }
    
     return(
